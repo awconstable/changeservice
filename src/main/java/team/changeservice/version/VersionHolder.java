@@ -1,4 +1,4 @@
-package team.changeservice;
+package team.changeservice.version;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

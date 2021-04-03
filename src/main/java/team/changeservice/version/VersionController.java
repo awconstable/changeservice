@@ -1,4 +1,4 @@
-package team.changeservice;
+package team.changeservice.version;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
