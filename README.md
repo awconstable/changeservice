@@ -33,8 +33,8 @@ docker run --name changeservice -d -p 8080:8080 --network <mongo network> -e spr
   Content-Type: application/json
   
   {
-    "changeId": "c1",  
-    "changeDesc": "change c1",
+    "changeRequestId": "c1",  
+    "description": "change c1",
     "applicationId": "a1",  
     "created": "2020-11-30T13:00:00.000+00:00", 
     "started": "2020-11-30T13:00:00.000+00:00",    
