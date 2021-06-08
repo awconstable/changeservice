@@ -32,7 +32,7 @@ docker run --name changeservice -d -p 8080:8080 --network <mongo network> -e spr
   Cache-Control: no-cache
   Content-Type: application/json
   
-  {
+  [{
     "changeRequestId": "c1",  
     "description": "change c1",
     "applicationId": "a1",  
@@ -42,5 +42,5 @@ docker run --name changeservice -d -p 8080:8080 --network <mongo network> -e spr
     "closed": "2020-11-30T13:00:00.000+00:00", 
     "failed": false,
     "source": "test"
-  }
+  }]
 ```
